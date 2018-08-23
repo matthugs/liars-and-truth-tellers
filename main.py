@@ -11,12 +11,6 @@ class Person():
     def isTruthTeller(self):
         return self.am
 
-    def __eq__(self, person):
-        return self.am == person.am
-
-    def __ne__(self, person):
-        return self.am != person.am
-
 def list_all_solutions(num, keys):
     solutions = []
     for i in map(lambda x: (num + 2 - len(bin(x))) * "0" + bin(x)[2:], range(2**num)):
