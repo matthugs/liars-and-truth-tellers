@@ -71,5 +71,3 @@ Does this solution work? Well, yes, and in fact, it is the only solution.
 # Ending remarks
 
 This is a tool that is intended to speed up solving those liars and truth tellers puzzles. However, I *do* suggest you do them yourself and then use this if you want to check your answer.
-
-By the way, if you want to check if somebody happens to be somebody else, e.g. "Are you the criminal we are looking for, who said you were a liar" then you should directly compare them using the `==` operator, and that *should* work. Good luck!
